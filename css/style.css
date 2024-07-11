@@ -5,7 +5,7 @@
      color: black;  /* С цветом нужно поиграть */
 }
 .navbar {
-    background-color: rgb(240, 238, 238);
+    /* background-color: rgb(240, 238, 238); */
 }
 .header__text{
     text-align: center;
@@ -36,6 +36,8 @@
 }
 .card {
     margin-right: 10px;
+    background-color: transparent;
+    border: none;
 }
 .line {
     display: block;
@@ -47,4 +49,8 @@
 }
 .sec-2 {
     margin-bottom: 50px;
+}
+.container {
+    background-image: url("/img/test/pexels-codioful-6984992.jpg");
+    background-size: cover;
 }
