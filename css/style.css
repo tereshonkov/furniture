@@ -51,7 +51,7 @@
     margin-bottom: 50px;
 }
 .container {
-    background-image: url("/img/test/pexels-codioful-6984992.jpg");
+    background-image: url("./img/test/pexels-codioful-6984992.jpg");
     background-size: cover;
 
 }
