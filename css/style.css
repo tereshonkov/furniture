@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.navbar-brand, .navbar-text {
+    font-family: "Pacifico", cursive;
+     color: black;  /* С цветом нужно поиграть */
+}
+.navbar {
+    background-color: rgb(240, 238, 238);
+}
+.header__text{
+    text-align: center;
+    padding-top: 50px;
+}
+.header__text {
+    font-family: "Pacifico", cursive;
+    /* text-shadow: 4px 4px 6px rgba(66, 68, 90, 1); */
+}
+.header__paragraph {
+    margin-top: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.tab-contents {
+    display: none;
+
+}
+.tab-contents.active {
+    display: flex;
+}
+.nav-link.active {
+    /* color: blue !important; */
+    text-decoration: underline;
+}
+#our {
+    margin-top: 20px;
+}
+.card {
+    margin-right: 10px;
+}
