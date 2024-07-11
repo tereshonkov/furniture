@@ -53,6 +53,7 @@
 .container {
     background-image: url("/img/test/pexels-codioful-6984992.jpg");
     background-size: cover;
+    
 }
 .card-img-top, .d-block {
     border-radius: 30px;
