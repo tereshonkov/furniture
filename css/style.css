@@ -4,9 +4,9 @@
     font-family: "Pacifico", cursive;
      color: black;  /* С цветом нужно поиграть */
 }
-.navbar {
-    /* background-color: rgb(240, 238, 238); */
-}
+/* .navbar {
+    background-color: rgb(240, 238, 238);
+} */
 .header__text{
     text-align: center;
     padding-top: 50px;
@@ -53,7 +53,7 @@
 .container {
     background-image: url("/img/test/pexels-codioful-6984992.jpg");
     background-size: cover;
-    
+
 }
 .card-img-top, .d-block {
     border-radius: 30px;
