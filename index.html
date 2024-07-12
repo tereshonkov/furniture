@@ -61,23 +61,25 @@
               </div>
             </div>
             <div class="line"></div>
-            <form class="my-form d-flex justify-content-center align-items-center flex-column">
+            <form id="form" action="https://api.web3forms.com/submit" method="POST" class="my-form d-flex justify-content-center align-items-center flex-column">
               <h3 class="header__text sec-2">Ви можете відправити нам запит і ми вам зателефонуємо</h3>
+              <input type="hidden" name="access_key" value="2285c471-9804-4787-b12e-f7c6e76890ce">
               <div class="input-group mb-3">
                 <!-- <span class="input-group-text">@</span> -->
                 <div class="form-floating d-flex justify-content-center">
-                  <input type="text" class="form-control form-control-sm" id="floatingInputGroup1" placeholder="Степан Іванов">
+                  <input name="name" required type="text" class="form-control form-control-sm" id="floatingInputGroup1" placeholder="Степан Іванов">
                   <label for="floatingInputGroup1">Введіть ваше імʼя</label>
                 </div>
               </div>
               <div class="input-group mb-3">
                 <!-- <span class="input-group-text">+38</span> -->
                 <div class="form-floating d-flex justify-content-center">
-                  <input type="number" class="form-control form-control-sm" id="floatingInputGroup1" placeholder="093-000-00-00">
+                  <input name="numbers" required type="number" class="form-control form-control-sm" id="floatingInputGroup1" placeholder="093-000-00-00">
                   <label for="floatingInputGroup1">Введіть ваш телефон</label>
                 </div>
               </div>
               <button class="btn btn-success" type="submit">Надіслати</button>
+              <div id="result"></div>
             </form>
             <!-- Тут пишем основную главную страницу -->
           </div>
