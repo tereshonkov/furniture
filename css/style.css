@@ -53,7 +53,7 @@
 }
 body {
     background-image: url("/img/test/pexels-codioful-6984992.jpg");
-    background-image: url("/tereshonkov.github.furniture/img/test/pexels-codioful-6984992.jpg");
+    /* background-image: url("/tereshonkov.github.furniture/img/test/pexels-codioful-6984992.jpg"); */
     background-size: cover;
     font-family: "LXGW WenKai Mono TC", monospace;
 }
@@ -73,6 +73,6 @@ body {
     to {transform:rotate(360deg);}
 }
 
-.logo-kitch{
+.logo-t{
   animation: spin 500ms linear 0s ;
 }
