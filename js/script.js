@@ -53,7 +53,9 @@ fetch('https://api.web3forms.com/submit', {
         }, 3000);
     });
 });
-const rizneDiv = document.getElementById("carouselExampleFade");
+
+if(window.innerWidth > 768) {
+    const rizneDiv = document.getElementById("carouselExampleFade");
 const rizne = document.querySelector(".modal-rizne");
 rizneDiv.addEventListener("click", function(event) {
     rizne.style.display = "block";
@@ -96,3 +98,4 @@ shafaDiv.addEventListener("click", function(event) {
         shafa.style.display = "none";
     })
 });
+}
