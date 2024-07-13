@@ -52,6 +52,7 @@
     margin-bottom: 50px;
 }
 body {
+    /* background-image: url("/img/test/pexels-codioful-6984992.jpg"); */
     background-image: url("/tereshonkov.github.furniture/img/test/pexels-codioful-6984992.jpg");
     background-size: cover;
     font-family: "LXGW WenKai Mono TC", monospace;
@@ -66,4 +67,10 @@ body {
 .logo-t {
     border-radius: 100px;
     /* margin-left: 20px; */
+}
+#about {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px dotted grey;
+    border-radius: 30px;
 }
