@@ -53,6 +53,16 @@ fetch('https://api.web3forms.com/submit', {
         }, 3000);
     });
 });
+const kitchenDiv = document.getElementById("carouselExampleFade1");
+kitchenDiv.addEventListener("click", function(event) {
+    shafa.style.display = "block";
+
+    const closeOne = document.querySelector(".btn-close");
+    closeOne.addEventListener("click", () => {
+        shafa.style.display = "none";
+    })
+});
+
 const shafaDiv = document.getElementById("carouselExampleFade2");
 const shafa = document.querySelector(".modal-xl");
 shafaDiv.addEventListener("click", function(event) {
@@ -62,4 +72,4 @@ shafaDiv.addEventListener("click", function(event) {
     closeOne.addEventListener("click", () => {
         shafa.style.display = "none";
     })
-})
+});
