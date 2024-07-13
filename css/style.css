@@ -83,3 +83,15 @@ body {
 .shafa-modal {
     max-height: 650px;
 }
+.modal-content {
+    background: transparent;
+    border: none;
+}
+.modal-header{
+    border: none;
+}
+.close-pos {
+    position: absolute;
+    left: 45%;
+    top: 6%;
+}
