@@ -87,7 +87,7 @@ body {
     background: transparent;
     border: none;
 }
-.modal-header{
+.modal-header .modal-footer{
     border: none;
 }
 .close-pos {
