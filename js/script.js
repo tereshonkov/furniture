@@ -53,22 +53,45 @@ fetch('https://api.web3forms.com/submit', {
         }, 3000);
     });
 });
-const kitchenDiv = document.getElementById("carouselExampleFade1");
-kitchenDiv.addEventListener("click", function(event) {
-    shafa.style.display = "block";
+const rizneDiv = document.getElementById("carouselExampleFade");
+const rizne = document.querySelector(".modal-rizne");
+rizneDiv.addEventListener("click", function(event) {
+    rizne.style.display = "block";
 
-    const closeOne = document.querySelector(".btn-close");
+    const closeOne = document.querySelector(".btn-close-rizne");
     closeOne.addEventListener("click", () => {
-        shafa.style.display = "none";
-    })
+        rizne.style.display = "none";
+})
+});
+
+const modernDiv = document.getElementById("carouselExampleFade3");
+const modern = document.querySelector(".modal-modern");
+modernDiv.addEventListener("click", function(event) {
+    modern.style.display = "block";
+
+    const closeOne = document.querySelector(".btn-close-modern");
+    closeOne.addEventListener("click", () => {
+        modern.style.display = "none";
+})
+});
+
+const kitchenDiv = document.getElementById("carouselExampleFade1");
+const kitchen = document.querySelector(".modal-kitchen");
+kitchenDiv.addEventListener("click", function(event) {
+    kitchen.style.display = "block";
+
+    const closeOne = document.querySelector(".btn-close-kitchen");
+    closeOne.addEventListener("click", () => {
+        kitchen.style.display = "none";
+})
 });
 
 const shafaDiv = document.getElementById("carouselExampleFade2");
-const shafa = document.querySelector(".modal-xl");
+const shafa = document.querySelector(".modal-shafa");
 shafaDiv.addEventListener("click", function(event) {
     shafa.style.display = "block";
 
-    const closeOne = document.querySelector(".btn-close");
+    const closeOne = document.querySelector(".btn-close-shafa");
     closeOne.addEventListener("click", () => {
         shafa.style.display = "none";
     })
