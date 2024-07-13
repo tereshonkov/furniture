@@ -53,3 +53,13 @@ fetch('https://api.web3forms.com/submit', {
         }, 3000);
     });
 });
+const shafaDiv = document.getElementById("carouselExampleFade2");
+const shafa = document.querySelector(".modal-xl");
+shafaDiv.addEventListener("click", function(event) {
+    shafa.style.display = "block";
+
+    const closeOne = document.querySelector(".btn-close");
+    closeOne.addEventListener("click", () => {
+        shafa.style.display = "none";
+    })
+})

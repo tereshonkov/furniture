@@ -77,3 +77,9 @@ body {
 .about-t {
     font-size: larger;
 }
+.modal-xl {
+    display: none;
+}
+.shafa-modal {
+    max-height: 650px;
+}
