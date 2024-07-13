@@ -93,7 +93,7 @@ body {
 .close-pos {
     position: absolute;
     left: 45%;
-    top: 6%;
+    top: 4%;
 }
 .modal {
     background:rgba(0,0,0,.7);
