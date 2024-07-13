@@ -74,3 +74,6 @@ body {
     border: 1px dotted grey;
     border-radius: 30px;
 }
+.about-t {
+    font-size: larger;
+}
